@@ -4,40 +4,34 @@
 #################################################################
 #################################################################
 
-##################### GENOME DATA ########################
-# Directory of the structural annotation:
-
-##################### BRAKER DIR ########################
+##################### STRUCTURAL ANNOTATION DIR #################
 
 #PATH to the structural annotation, where the gff file is located which serves as input for the annotation.
 
 BRA_DIR: "/scratch/mosys/Clusia_spp_assembly/braker/Cmulti_pipeC_v6"
 
-----------------------------------------------------------
 #BRA_DIR: "/scratch/mosys/Clusia_spp_assembly/braker/Cminor_pipeC_v3"
 #BRA_DIR: "/scratch/mosys/Clusia_spp_assembly/braker/Crosea_pipeC_v3" 
-----------------------------------------------------------
-##################### Sequence DIR ########################
+
+##################### Sequence DIR #############################
 
 #FASTA formatted Genomic Sequence:
 
 REF: '/scratch/mosys/Clusia_spp_assembly/lena/genomes/Cmultiflora_genome.fasta'
 
-----------------------------------------------------------
 #REF: '/scratch/mosys/Clusia_spp_assembly/lena/genomes/Cminor_genome.fasta'
 #REF: '/scratch/mosys/Clusia_spp_assembly/lena/genomes/Crosea_genome.fasta' 
-----------------------------------------------------------
+
 ##################### NAME of SPECIES ########################
 
 #NAME of the organism, which will be used to create directories
 
-#REF_NAME: 'Cmultiflora'
+REF_NAME: 'Cmultiflora'
 
-----------------------------------------------------------
 #REF_NAME: 'Cminor'
 #REF_NAME: 'Crosea'
-----------------------------------------------------------
-################## PROTEIN ALIGNMENT DATA #############################
+
+################## PROTEIN ALIGNMENT DATA #######################
 
 #PROTEIN ALIGNMENT FILE containing reviewed proteins from Swiss-Prot/UniProt which serves as input for the functional annotation.
 

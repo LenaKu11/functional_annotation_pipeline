@@ -151,7 +151,7 @@ rule interproscan:
     shell:
         """
         cd {params.dir}
-        /localmirror/monthly/interpro/interproscan-5.52-86.0/interproscan.sh -i {input} -t p -dp -pa --goterms --iprlookup --pathways --cpu 16 &> {log}
+        /localmirror/monthly/interpro/interproscan-5.53-87.0/interproscan.sh -i {input} -t p -dp -pa --goterms --iprlookup --pathways --cpu 16 &> {log}
         """
 
 rule blast_db:
